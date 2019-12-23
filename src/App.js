@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components'
+import FlexWrapper from './components/FlexWrapper'
+import Footer from './components/Footer'
+import CVSection from './components/CVSection';
+import myData from './myData';
+
+const StyledHeader = styled.header`
+  background: pink;
+`
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StyledHeader>
+        <FlexWrapper justifyContent='center'>
+          {/* hiier image van moi */}
+          <div>
+            <h1>Oliver Oenang</h1>
+            <h3>front end developer</h3>
+            <p>
+              {myData.description}
+            </p>
+          </div>
+        </FlexWrapper>
+      </StyledHeader>
+
+      <CVSection data={myData} />
+
+      <Footer>
+        <p>OLIVER OENANG <span>1900</span></p>
+      </Footer>
     </div>
   );
 }
