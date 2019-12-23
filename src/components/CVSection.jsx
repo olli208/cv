@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import FlexWrapper from './FlexWrapper';
+import Section from './Section';
 
 const SectionTitle = styled.h2`
-  font-size: 2em; 
   margin: 0;
 `
 
@@ -10,27 +11,35 @@ const SectionTitle = styled.h2`
 // section for education
 // section for tools 
 //  section for latest projects (if there are better ones )? 
+
+function DateRange({ startDate, endDate, endDateMessage = '-' }) {
+	return (
+		<FlexWrapper>
+			<span>{startDate} - {endDate ? endDate : endDateMessage}</span>
+		</FlexWrapper>
+	)
+}
+
 function CVSection({ data }) {
 	const { workExperience, education } = data;
 
 	return (
 		<>
-			<div>
+			<Section>
 				<SectionTitle>work experience</SectionTitle>
 				{workExperience.map(({ companyName, jobTitle, location, startDate, endDate, description }, index) => {
 					return (
 						<div key={index}>
 							<h3>{companyName}, {jobTitle}</h3>
 							<span>{location}</span>
-							<span>{startDate}</span>
-							<span>{endDate ? endDate : 'present'}</span>
+							<DateRange startDate={startDate} endDate={endDate} endDateMessage='present' />
 
 							<p>{description}</p>
 						</div>
 					)
 				})}
-			</div>
-			<div>
+			</Section>
+			<Section>
 				<SectionTitle>education</SectionTitle>
 				{education.map(({ title, startDate, endDate, location, description }, index) => {
 					return (
@@ -43,7 +52,7 @@ function CVSection({ data }) {
 						</div>
 					)
 				})}
-			</div>
+			</Section>
 		</>
 	)
 }
