@@ -1,5 +1,5 @@
 const theme = {
-	// theme here 
+	// theme here + default media queries 
 	fonts: ["sans-serif", "Roboto"],
 }
 

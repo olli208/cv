@@ -30,11 +30,16 @@ h1 {
 h2 {
   font-size: 2em; 
   margin: 0;
+  margin-bottom: .5em;
 }
 
 h3 {
   font-size: 1.5em; 
   margin: 0;
+}
+
+p {
+  font-size: 1.3rem;
 }
 
 `

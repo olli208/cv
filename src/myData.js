@@ -1,16 +1,18 @@
 const myData = {
-	description: 'Frontend developer working in Amsterdam area. Currently working with the latest developments in React, JavaScript, CSS, and Styled Components. Graduated from Communication and Multimedia Design(CMD) in 2018 at the Amsterdam University of Applied Sciences.',
+	name: 'Oliver Oenang',
+	jobTitle: 'frontend developer',
+	description: 'Frontend developer from Amsterdam. Currently working with the latest developments in React, JavaScript, CSS, and Styled Components. Graduated from Communication and Multimedia Design(CMD) in 2018 at the Amsterdam University of Applied Sciences.',
 	workExperience: [
 		{
 			companyName: 'AG5',
-			jobTitle: 'front end developer',
+			jobTitle: 'frontend developer',
 			location: 'amsterdam',
 			startDate: '03/2019',
 			description: 'Create and update the AG5 application using the latest	developments in React, JavaScript, CSS, and Styled Components.'
 		},
 		{
 			companyName: 'The Valley',
-			jobTitle: 'intern front developer',
+			jobTitle: 'intern frontend developer',
 			location: 'amsterdam',
 			startDate: '11/2017',
 			endDate: '10/2018',
@@ -18,15 +20,15 @@ const myData = {
 		},
 		{
 			companyName: 'a fried of mine',
-			jobTitle: 'front developer',
+			jobTitle: 'frontend developer',
 			location: 'amsterdam',
 			startDate: '09/2016',
 			endDate: '12/2016',
-			description: 'Working as a part-time front end developer on projects such as Gemeentemuseum Den Haag.'
+			description: 'Working as a part-time frontend developer on projects such as Gemeentemuseum Den Haag.'
 		},
 		{
 			companyName: 'Olisto (formerly Triggi)',
-			jobTitle: 'intern front developer',
+			jobTitle: 'intern frontend developer',
 			location: 'amsterdam',
 			startDate: '04/2016',
 			endDate: '07/2016',
@@ -50,7 +52,7 @@ const myData = {
 			'React.js',
 			'Vanilla JavaScript/JQuery',
 			'GraphQL',
-			'Rest Apis',
+			'Rest APIs',
 			'NodeJS/Express',
 			'Jest',
 			'Mongoose/MongoDB',
@@ -66,7 +68,7 @@ const myData = {
 			'Zeplin'
 		]
 	}],
-	other: {
+	other: [{
 		skills: [
 			'Fluent in English and Dutch',
 			'Familiar with SCRUM/AGILE software development.'
@@ -78,7 +80,21 @@ const myData = {
 			location: 'hilversum',
 			description: 'Graduated'
 		},
-	}
+	}],
+	projects: [
+		{
+			title: 'animation test',
+			link: 'https://github.com/olli208/nav-animation'
+		},
+		{
+			title: 'x-lab digest',
+			link: 'https://github.com/olli208/slack-knowledge-collector'
+		},
+		{
+			title: 'spotify dashboard',
+			link: 'https://github.com/olli208/spotify-dashboard'
+		}
+	]
 }
 
 export default myData 
