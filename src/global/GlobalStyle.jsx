@@ -24,7 +24,6 @@ h1 {
   margin: 0;
   color: #202124;
   font-weight: 700;
-  /* padding: 0 1.5rem; */
 }
 
 h2 {

@@ -2,11 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import ItemSection from './ItemSection';
 import DateRange from './DateRange';
-import StyledLink from './StyledLink'
 import FlexWrapper from './FlexWrapper';
 import gif1 from '../img/p1.gif';
 import gif2 from '../img/p2.gif';
 import gif3 from '../img/p3.gif';
+import Project from './Project';
+import StyledLink from './StyledLink';
 
 const bgLink = {
 	0: gif1,
@@ -16,31 +17,6 @@ const bgLink = {
 
 const StyledLocation = styled.span`
 	color: #bdbdbd;
-`
-
-const StyledProject = styled.div`
-  & {
-		height: 200px;
-		width: 300px;
-		background-image: linear-gradient(to bottom right, orange, hotpink);
-		margin: .5rem 1rem 1rem .25rem;
-		border-radius: 10px;
-		padding: 10px;
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		border: 1px solid #666666;
-		font-family: 'Product Sans', 'Roboto', arial,  sans-serif;
-		font-weight: 700;
-
-		& a {
-			background: linear-gradient(to bottom right, orange, hotpink);
-			background-clip: text;
-			fill: transparent;
-			font-weight: 700;
-		}
-	}
-
 `
 
 function CVSection({ data }) {
@@ -66,9 +42,9 @@ function CVSection({ data }) {
 			<ItemSection title='recent projects'>
 				{projects.map(({ title, link }, index) => (
 					<div key={index}>
-						<StyledProject key={index} style={{ backgroundImage: `url(${bgLink[index]})` }}>
-							<h3><a href={link}>{title}</a></h3>
-						</StyledProject>
+						<Project key={index} style={{ backgroundImage: `url(${bgLink[index]})` }}>
+							<h3><StyledLink href={link}>{title}</StyledLink></h3>
+						</Project>
 					</div>
 				))}
 			</ItemSection>
