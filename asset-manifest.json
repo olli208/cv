@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/olli208/static/js/main.c2703fc8.chunk.js",
+    "main.js.map": "/olli208/static/js/main.c2703fc8.chunk.js.map",
+    "runtime-main.js": "/olli208/static/js/runtime-main.018d0e8b.js",
+    "runtime-main.js.map": "/olli208/static/js/runtime-main.018d0e8b.js.map",
+    "static/js/2.33115479.chunk.js": "/olli208/static/js/2.33115479.chunk.js",
+    "static/js/2.33115479.chunk.js.map": "/olli208/static/js/2.33115479.chunk.js.map",
+    "index.html": "/olli208/index.html",
+    "precache-manifest.2ac478bf8b3e423bc08fbaba058554aa.js": "/olli208/precache-manifest.2ac478bf8b3e423bc08fbaba058554aa.js",
+    "service-worker.js": "/olli208/service-worker.js",
+    "static/js/2.33115479.chunk.js.LICENSE": "/olli208/static/js/2.33115479.chunk.js.LICENSE",
+    "static/media/me-xs.png": "/olli208/static/media/me-xs.e09b49d6.png",
+    "static/media/me.png": "/olli208/static/media/me.78f2a235.png",
+    "static/media/p1.gif": "/olli208/static/media/p1.d436e99a.gif",
+    "static/media/p2.gif": "/olli208/static/media/p2.1c286325.gif",
+    "static/media/p3.gif": "/olli208/static/media/p3.da45e831.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.018d0e8b.js",
+    "static/js/2.33115479.chunk.js",
+    "static/js/main.c2703fc8.chunk.js"
+  ]
+}
