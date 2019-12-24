@@ -38,7 +38,7 @@ h3 {
   margin: 0;
 }
 
-p {
+p, span {
   font-size: 1.3rem;
 }
 

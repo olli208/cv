@@ -9,7 +9,7 @@ const FlexWrapper = styled.div`
 	justify-content: ${({ justifyContent }) => justifyContent};
 	align-items: ${({ alignItems }) => alignItems};
 	width: ${({ isFullWidth }) => isFullWidth && '100%'};
-	flex-direction: ${({ direction }) => direction && direction}
+	flex-direction: ${({ direction }) => direction && direction};
 `
 
 FlexWrapper.propTypes = {

@@ -1,17 +1,7 @@
 import React from 'react';
 import FlexWrapper from './FlexWrapper';
 import styled from 'styled-components';
-
-const StyledLink = styled.a`
-	color: inherit;
-	font-weight: 700;
-	text-decoration: none;
-	transition: 200ms ease-in;
-
-	&:hover {
-		text-decoration: underline
-	}
-`
+import StyledLink from './StyledLink'
 
 const LinkWrapper = styled(FlexWrapper).attrs({
 	as: 'p',

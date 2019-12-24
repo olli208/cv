@@ -73,26 +73,29 @@ const myData = {
 			'Fluent in English and Dutch',
 			'Familiar with SCRUM/AGILE software development.'
 		],
-		education: {
+		education: [{
 			title: 'MBO marketing & communication, MBO College Hilversum',
 			startDate: '08/2012',
 			endDate: '07/2014',
 			location: 'hilversum',
 			description: 'Graduated'
-		},
+		}],
 	}],
 	projects: [
 		{
 			title: 'animation test',
-			link: 'https://github.com/olli208/nav-animation'
+			link: 'https://github.com/olli208/nav-animation',
+			bgLink: 'https://imgur.com/IXAmdAY'
 		},
 		{
 			title: 'x-lab digest',
-			link: 'https://github.com/olli208/slack-knowledge-collector'
+			link: 'https://github.com/olli208/slack-knowledge-collector',
+			bgLink: 'https://imgur.com/gTQnpuy'
 		},
 		{
 			title: 'spotify dashboard',
-			link: 'https://github.com/olli208/spotify-dashboard'
+			link: 'https://github.com/olli208/spotify-dashboard',
+			bgLink: 'https://imgur.com/re1hswZ'
 		}
 	]
 }
