@@ -1,4 +1,4 @@
-const myData = {
+{
 	name: 'Oliver Oenang',
 	jobTitle: 'frontend developer',
 	description: 'Frontend developer from Amsterdam. Currently working with the latest developments in React, JavaScript, CSS, and Styled Components. Graduated from Communication and Multimedia Design(CMD) in 2018 at the Amsterdam University of Applied Sciences.',
@@ -100,5 +100,3 @@ const myData = {
 		}
 	]
 }
-
-export default myData 
