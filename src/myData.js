@@ -8,6 +8,7 @@ const myData = {
 			jobTitle: 'frontend developer',
 			location: 'amsterdam',
 			startDate: '03/2019',
+			endDate: '02/2020',
 			description: 'Create and update the AG5 application using the latest	developments in React, JavaScript, CSS, and Styled Components.'
 		},
 		{
