@@ -3,6 +3,13 @@ const myData = {
 	jobTitle: 'frontend developer',
 	description: 'Frontend developer from Amsterdam. Currently working with the latest developments in React, JavaScript, CSS, and Styled Components. Graduated from Communication and Multimedia Design(CMD) in 2018 at the Amsterdam University of Applied Sciences.',
 	workExperience: [
+				{
+			companyName: 'Saxum',
+			jobTitle: 'frontend developer',
+			location: 'amsterdam',
+			startDate: '03/2020',
+			description: 'Worked on the feedback platform for MakerStreet. Made from scratch with React/TypeScript, Styled Components, and GraphQL/Apollo. '
+		},
 		{
 			companyName: 'AG5',
 			jobTitle: 'frontend developer',
