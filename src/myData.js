@@ -1,9 +1,9 @@
 const myData = {
 	name: 'Oliver Oenang',
 	jobTitle: 'frontend developer',
-	description: 'Frontend developer from Amsterdam. Currently working with the latest developments in React, JavaScript, CSS, and Styled Components. Graduated from Communication and Multimedia Design(CMD) in 2018 at the Amsterdam University of Applied Sciences.',
+	description: 'Frontend developer residing in the Amsterdam area. Currently working with the latest developments in React, JavaScript/TypeScript, CSS, and Styled Components. Graduated from Communication and Multimedia Design at the Amsterdam University of Applied Sciences.',
 	workExperience: [
-				{
+		{
 			companyName: 'Saxum',
 			jobTitle: 'frontend developer',
 			location: 'amsterdam',
@@ -58,8 +58,9 @@ const myData = {
 			'Bootstrap/Bulma',
 			'handlebars',
 			'React.js',
+			'TypeScript',
 			'Vanilla JavaScript/JQuery',
-			'GraphQL',
+			'GraphQL/Apollo',
 			'Rest APIs',
 			'NodeJS/Express',
 			'Jest',

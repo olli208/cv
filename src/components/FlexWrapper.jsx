@@ -14,7 +14,9 @@ const FlexWrapper = styled.div`
 
 FlexWrapper.propTypes = {
 	justifyContent: PropTypes.string,
-	alignItems: PropTypes.string
+	alignItems: PropTypes.string,
+	isFullWidth: PropTypes.bool,
+	direction: PropTypes.string
 }
 
 FlexWrapper.defaultProps = {
